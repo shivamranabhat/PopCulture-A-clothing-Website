@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+.pointer{
+    cursor: pointer;
+}
+/* .product-card{
+    transition: .4s ease !important;
+}
+.product-card:hover{
+    scale: 1.05;
+} */
+.btn{
+    outline: none !important;
+}
+.border-black{
+    border: 0.05rem solid #4c4c4c;
+    border-radius: 0.2rem;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.landing-text {
+    background-image: url(../images/landingbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-card {
+    text-transform: uppercase;
+}
+
+.circle {
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 100%;
+    background-color: grey;
+}
+.description p{
+    font-weight: 400;
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid grey;
+    text-decoration: none !important;
+    margin-left: 1rem;
+}
+
+a.footer-social:hover {
+    background: white;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.fa-brands:hover {
+    color: #000;
+}
+
+.footer-line {
+    height: 0.04rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-navigation {
+    display: flex;
+    list-style: none;
+}
+
+.footer-navigation li a {
+    color: lightgrey;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.footer-navigation li a:hover {
+    color: white;
+}
+
+@media(max-width:600px)
+{
+    .landing-section{
+        height: 75vh !important;
+    }
+}
